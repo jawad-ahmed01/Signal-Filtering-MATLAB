@@ -1,7 +1,7 @@
 clc;
 clear all;
 
-[x_raw, Fs] = audioread('C:\Users\jawad\OneDrive\Desktop\Video-Project.m4a');
+[x_raw, Fs] = audioread('C:\Users\jawad\OneDrive\Desktop\Audio-Project.m4a');
 
 if size(x_raw, 2) > 1
     x = mean(x_raw, 2);
