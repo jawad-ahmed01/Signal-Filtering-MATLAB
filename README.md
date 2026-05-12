@@ -41,7 +41,7 @@ and audio playback comparison of each filtered output.
 ## How to run
 
 1. Open `signal_filters.m` in MATLAB
-2. Replace the audio file path on line 3 with your own file:
+2. Replace the audio file path (download Audio-Project.m4a as the default sound) on line 3 with your own file:
 ```matlab
 [x_raw, Fs] = audioread('your_audio_file.m4a');
 ```
